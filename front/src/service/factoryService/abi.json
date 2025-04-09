@@ -1,0 +1,112 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_gerda",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_krendel",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_rtk",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_lpToken",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tom",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "ben",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenA",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenB",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "reserveA",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "reserveB",
+				"type": "uint256"
+			}
+		],
+		"name": "createPool",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getBalance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "gerdaBalance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "krendelBalance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "rtkBalance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lpBalance",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "ethBalance",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getPool",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

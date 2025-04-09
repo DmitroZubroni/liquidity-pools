@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_lpToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "claimReward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStaking",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "depositTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rewardGo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenGo",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"camback/Staking.sol": "Staking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"camback/ERC20.sol": {
+			"keccak256": "0x2bcf58c0df597f95c64d9d6435f14d463399bdda562f535ca727f31a5c9e91f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7caaaa039d7fa5612feb0822e01beb259363a0a216c47a978c46fcaf54400e4e",
+				"dweb:/ipfs/QmZ7avhmgndv2uyWkdv1j2sjXo3ZVXuaBpu5w1fCkKzaNd"
+			]
+		},
+		"camback/Pool.sol": {
+			"keccak256": "0xece6e58c49e8e4c78ec730526d8a9a4ca044b40705caf367ba7b8bea741c12c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c2fc2a4aaa67c1fada553830c280ce8041f3c8c2cfef954cdbe470f93e28203",
+				"dweb:/ipfs/QmU5Xg3pzJ8n3FGeHwFwKPR2c6CETQrxMwC6ykh5rz1JiY"
+			]
+		},
+		"camback/Staking.sol": {
+			"keccak256": "0xa585b8ab087f301fbbbf44841802059b353e74c390cca26fb9817d25e9bfbf54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://712a2240730a0a7a93f98b98416b788486baa66443c8aca4b3d8e726b15cb782",
+				"dweb:/ipfs/QmQxDKxfuwgJKC5xqqVTzeM99zfp8VswFWA6NBFa7zBMDZ"
+			]
+		},
+		"camback/Tokens.sol": {
+			"keccak256": "0xfcfdff60cecf3de73e4f184fc86fe6a98a74e7740ed062b38dedd9a8348d0b67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a3ed0658ae937663154512a084ef04c63323abf06361626e413b00479770dd0",
+				"dweb:/ipfs/QmRiBu3e6e5gY9UShncwa3B8VSa8nZixC5CmJbm8DXxQGR"
+			]
+		}
+	},
+	"version": 1
+}

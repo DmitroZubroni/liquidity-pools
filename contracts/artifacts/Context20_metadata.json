@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"camback/ERC20.sol": "Context20"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"camback/ERC20.sol": {
+			"keccak256": "0x2bcf58c0df597f95c64d9d6435f14d463399bdda562f535ca727f31a5c9e91f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7caaaa039d7fa5612feb0822e01beb259363a0a216c47a978c46fcaf54400e4e",
+				"dweb:/ipfs/QmZ7avhmgndv2uyWkdv1j2sjXo3ZVXuaBpu5w1fCkKzaNd"
+			]
+		}
+	},
+	"version": 1
+}

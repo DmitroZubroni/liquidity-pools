@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_factory",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "supplyToken",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "demandToken",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "suplyAmmount",
+						"type": "uint256"
+					}
+				],
+				"name": "trade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"camback/Routing.sol": "Router"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"camback/ERC20.sol": {
+			"keccak256": "0x2bcf58c0df597f95c64d9d6435f14d463399bdda562f535ca727f31a5c9e91f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7caaaa039d7fa5612feb0822e01beb259363a0a216c47a978c46fcaf54400e4e",
+				"dweb:/ipfs/QmZ7avhmgndv2uyWkdv1j2sjXo3ZVXuaBpu5w1fCkKzaNd"
+			]
+		},
+		"camback/Factory.sol": {
+			"keccak256": "0x712b78e5261b46fd4e1ed80b7ebc5e1aa100de70abfbc643af32543803299133",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50869945bc92d8d8426f07db833fd0a14af6733de87969ef7a99bd550d1fa02e",
+				"dweb:/ipfs/Qmd3RmyPbfSX8cK8Hv1AjweHHz9GWrWCEfmt3RN1Kh91cL"
+			]
+		},
+		"camback/Pool.sol": {
+			"keccak256": "0xece6e58c49e8e4c78ec730526d8a9a4ca044b40705caf367ba7b8bea741c12c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c2fc2a4aaa67c1fada553830c280ce8041f3c8c2cfef954cdbe470f93e28203",
+				"dweb:/ipfs/QmU5Xg3pzJ8n3FGeHwFwKPR2c6CETQrxMwC6ykh5rz1JiY"
+			]
+		},
+		"camback/Routing.sol": {
+			"keccak256": "0x4ea8bba60ebd3a56b84d3b1714e1e4baf400bd851fb07f415bcd0f6dc0c0e10e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13fc64507d2f2d98e01c9819bd1a23f30c4d47a7bb702f1c017e8e4d2e578054",
+				"dweb:/ipfs/QmQUC4gVMDwStSgK4Bf5uSCo7rP55bGkvs2hNC1zFVVTSX"
+			]
+		},
+		"camback/Tokens.sol": {
+			"keccak256": "0xfcfdff60cecf3de73e4f184fc86fe6a98a74e7740ed062b38dedd9a8348d0b67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a3ed0658ae937663154512a084ef04c63323abf06361626e413b00479770dd0",
+				"dweb:/ipfs/QmRiBu3e6e5gY9UShncwa3B8VSa8nZixC5CmJbm8DXxQGR"
+			]
+		}
+	},
+	"version": 1
+}

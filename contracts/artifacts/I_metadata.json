@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"camback/Pool.sol": "I"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"camback/ERC20.sol": {
+			"keccak256": "0x2bcf58c0df597f95c64d9d6435f14d463399bdda562f535ca727f31a5c9e91f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7caaaa039d7fa5612feb0822e01beb259363a0a216c47a978c46fcaf54400e4e",
+				"dweb:/ipfs/QmZ7avhmgndv2uyWkdv1j2sjXo3ZVXuaBpu5w1fCkKzaNd"
+			]
+		},
+		"camback/Pool.sol": {
+			"keccak256": "0x5284a3b830137feb741fa8012b6efeef015a0ccd8766a34fec38775b5208a762",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e35488a6ae266af90e95b9c25c7d5879333896047556bb16da8ebe506339b7b",
+				"dweb:/ipfs/QmbMMC8x8Kz5E5MKWm1T7nAemUeeJVQmvP2SHXqYP6yEJ1"
+			]
+		},
+		"camback/Tokens.sol": {
+			"keccak256": "0xeb6d19180a5172d0395b83ff3cd29f0b406ba6c439534751e067374897e730d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d9d288565aa0605c22c175df46cef5a7927c52bffe3113ad0f7e5bd1fe9588d",
+				"dweb:/ipfs/Qmao5Qf2oGzH32TWWEqPbKtNtTsvcFyaxA1mpsW8LwQYMJ"
+			]
+		}
+	},
+	"version": 1
+}
